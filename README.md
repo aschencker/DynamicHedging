@@ -11,5 +11,7 @@ was just a fun project to do in C++.
 To compile on a mac please have boost installed and use the following commands
 
 clang++ -std=c++11 -stdlib=libc++ testDynamicHedge.cpp EuropeanOption.cpp GBM.cpp DynamicHedge.cpp
+
 clang++ -std=c++11 -stdlib=libc++ testEuropeanOption.cpp EuropeanOption.cpp 
-\newline clang++ -std=c++11 -stdlib=libc++ testGBM.cpp GBM.cpp
+
+clang++ -std=c++11 -stdlib=libc++ testGBM.cpp GBM.cpp
